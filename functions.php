@@ -21,6 +21,8 @@ if (function_exists('add_theme_support')) {
 /* Add post image support */
 add_theme_support( 'post-thumbnails' );
 
+add_theme_support( 'custom-logo');
+
 
 /* Add custom thumbnail sizes */
 if ( function_exists( 'add_image_size' ) ) {
